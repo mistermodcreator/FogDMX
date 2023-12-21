@@ -1,6 +1,4 @@
 # FogDMX
-Software and instructions for building a custom DMX controller for fog machines
-
 First, I'm not a programmer. My code will be janky and unoptimised, but it should work.
 
 Well, hello. Since you are here, you are probably looking for a cheap and easy way to upgrade your generic fog machine to use DMX and to have an variable output. So was I. As I found out, there is no affordable product out there to do that. So I decided to try programming Arduino and a few weeks later, the project was finished.
