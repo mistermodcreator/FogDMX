@@ -26,11 +26,11 @@ Included are the code, a list of materials and 3D-Models for an enclosure fittin
 - 5V power supply (if your fog machine doesn't output 5V on its own, machines with wireless remotes often do that)
 
 #### Materials used by me (which should work and are non-affiliate links)
-- https://www.amazon.de/dp/B0097AU5OU?psc=1&ref=ppx_yo2ov_dt_b_product_details
-- https://www.amazon.de/dp/B0785B3BS8?psc=1&ref=ppx_yo2ov_dt_b_product_details
-- https://www.amazon.de/dp/B07FNGCSZQ?ref=ppx_yo2ov_dt_b_product_details&th=1
-- https://www.amazon.de/dp/B078S8SGW2?ref=ppx_yo2ov_dt_b_product_details&th=1
-- https://www.amazon.de/dp/B099YM8WC3?psc=1&ref=ppx_yo2ov_dt_b_product_details
+- https://www.amazon.de/dp/B0097AU5OU?psc=1
+- https://www.amazon.de/dp/B0785B3BS8?psc=1
+- https://www.amazon.de/dp/B07FNGCSZQ
+- https://www.amazon.de/dp/B078S8SGW2
+- https://www.amazon.de/dp/B099YM8WC3
 - https://www.thomann.de/de/amphenol_ac3fdz.htm
 - https://www.thomann.de/de/amphenol_ac3mmdz.htm
 - https://www.thomann.de/de/rean_nys_325.htm
