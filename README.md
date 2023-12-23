@@ -16,15 +16,16 @@ Included are the code, a list of materials and 3D-Models for an enclosure fittin
 - A MAX-485-board
 - A Relay
 - A TM1637 based 4 digit 7-segment-display
-- Two switches and one pussh button
+- Two switches and one push button
 - 1 Female and one Male XLR socket
 - 1 Female MIDI-socket (Connection to fog machine, if your machine uses another type of connector or a hard wired remote, pick up a matching socket or route the wires directly in the enclosure)
 - 3D printer (If you don't have one, you can use a lunch box or semilar)
 - Some wires
 - Heatshrink
 - Hot Glue
+- 5V power supply (if your fog machine doesn't output 5V on its own, machines with wireless remotes often do that)
 
-### Materials used by me (which should work and are non-affiliate links)
+#### Materials used by me (which should work and are non-affiliate links)
 - https://www.amazon.de/dp/B0097AU5OU?psc=1&ref=ppx_yo2ov_dt_b_product_details
 - https://www.amazon.de/dp/B0785B3BS8?psc=1&ref=ppx_yo2ov_dt_b_product_details
 - https://www.amazon.de/dp/B07FNGCSZQ?ref=ppx_yo2ov_dt_b_product_details&th=1
