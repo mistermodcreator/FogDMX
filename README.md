@@ -46,7 +46,7 @@ Included are the code, a list of materials and 3D-Models for an enclosure fittin
 
 ## So, how to build this?
 - First, download the arduino sketch and open it in Arduino IDE. Then, use the library manager to install `TM1637 Driver (by AKJ, Version 2.1.2)` and `DMXSerial (by Matthias Hertel, Version 1.5.3)`
-- Now take a look at the values on top. If you want, you can modify these to fit your needs. What these values do is explained next to them. **WARNING!** If you modify these values, your fog machine might not respond or the following instructions might not name the right connections to make anymore. If you are unsure about this, try the default values first.
+- Now take a look at the values on top. If you want, you can modify these to fit your needs. What these values do is explained next to them and under **tuning**. **WARNING!** If you modify these values, your fog machine might not respond or the following instructions might not name the right connections to make anymore. If you are unsure about this, try the default values first.
 - Now plug in your Arduino and upload the sketch. This way, you will be able to test as you solder up or plug in the connections.
 
 
