@@ -11,7 +11,7 @@ This project is essentially two things: An DMX interface to controll a fog machi
 
 
 ## What's included here?
-Included are the code, a list of materials and 3D-Models for an enclosure fitting my switches and my potentiometer. You can modify the 3D model to match your components.
+Included are the code, a list of materials and 3D-Models for an enclosure fitting my switches and my potentiometer. You can modify the [3D model](https://www.tinkercad.com/things/fHhk7ptpsdN-fogdmx-case) to match your components.
 
 
 
@@ -25,7 +25,7 @@ Included are the code, a list of materials and 3D-Models for an enclosure fittin
 - 1 potentiometer
 - 1 Female and one Male XLR socket
 - 1 Female MIDI-socket (Connection to fog machine, if your machine uses another type of connector or a hard wired remote, pick up a matching socket or route the wires directly in the enclosure)
-- 3D printer (If you don't have one, you can use a lunch box or semilar)
+- 3D printer (If you don't have one, you can use a lunch box or semilar) [3D model](https://www.tinkercad.com/things/fHhk7ptpsdN-fogdmx-case)
 - Some wires
 - Heatshrink
 - Hot Glue
