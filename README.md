@@ -57,9 +57,9 @@ You can use dupont-connectors, however for reliability-reasons i wouldn't reccom
 - First solder your wires to the individual componets and make connections to the arduino last, ideally after figuring out the placement of all components in your case.
 
 #### But what goes where?
-- Display:			CLK -> Pin 3		  	DIO -> Pin 4		  	GND -> GND		  	VCC -> +5V
-- Relais:				IN -> Pin 5		  		GND -> GND		  		VCC -> +5V
-- MAX-485:			GND -> GND + DE		  VCC -> +5V			  	B -> DMX-Pin 2	A -> DMX-Pin 3	  	R0 -> D0/RX (Through a switch)
+- Display: 	`CLK -> Pin 3`		`DIO -> Pin 4`		`GND -> GND`		`VCC -> +5V`
+- Relais: 	`IN -> Pin 5`		`GND -> GND`		`VCC -> +5V`
+- MAX-485:	`GND -> GND + DE`		  `VCC -> +5V`		`B -> DMX-Pin 2	A -> DMX-Pin 3`	  	`R0 -> D0/RX (Through a switch)`
 - Push-Button:	Connect between Pin 6 and GND
 - Switch:				Connect between Pin 7 and GND
 - Pot:					Connect between A0 and GND, ensuring the far left position gives the least resistance
