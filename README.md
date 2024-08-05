@@ -74,22 +74,23 @@ Connect you new controller to your fog machine and DMX-controller and test every
 
 
 # How to use the controller
-Start it by connecting to power, either through the fog machine or, if you want to test without fog, by using a USB power bank. The controller will start and greet you with `HI`, the it will display the current mode. This is a good time to rotate the external switch to match up with the legend on the box. If you missed the mode, no problem! Just switch modes, the newly selected mode will be displayed.
+Start it by connecting to power, either through the fog machine or, if you want to test without fog, by using a USB power bank. The controller will start and greet you with `HI`, then it will display the current mode. This is a good time to rotate the external switch to match up with the legend on the box. If you missed the mode, no problem! Just switch modes, the newly selected mode will be displayed.
 ### d512 - DMX-mode
 Your controller now listens for a DMX-signal and displays the channel it is listening on. To change the channel, press the push-button and rotate the pot. The channel shown in the display will be set once you let go of the push-button. In order to start on a specific channel every time, check out **Tuning**.
 
 ### bUtn - Manual mode
-Your controller displays the current pot value in the display (range same as DMX-channel, `0-255`). When you press the push-button, you fog machine will fire as if that DMX-value was set via DMX. You CAN rotate the pot while firing, just mind that because of my poor programming skills, the rate at which the pot is pulled (asked for its value) is proportional to its value. The lower the value, the longer it will take for a change to be registerd while firing.
+Your controller displays the current pot value in the display (range same as DMX-channel, `0-255`). When you press the push-button, your fog machine will fire as if that DMX-value was set via DMX. You CAN rotate the pot while firing, just mind that because of my poor programming skills, the rate at which the pot is polled (asked for its value) is proportional to its value. The lower the value, the longer it will take for a change to be registerd while firing.
 
 
 # Tuning
-Since the sketch allows for customization, i will mention the tuning that might be done. Nothing here can break your stuff, however it can absolutely result in the remote not functioning. Just reupload the original sketch and you should be fine! Speaking of, any time you change a value, you will need to reupload the sketch to your arduino. Since the serial connection (and the Nano has only one) is used by the DMX-Input, you can't simply upload, as the same interface is used for USB-communication. This is where that switch in `R0 -> D0/RX` comes into play. Flipping it off shuts off the DMX-connection, allowing you to upload your sketch. Just remember to flip it back on afterwards, else you can't get a DMX-signal, no matter how hary you try.
+Since the sketch allows for customization, i will mention the tuning that might be done. Nothing here can break your stuff, however it can absolutely result in the remote not functioning. Just reupload the original sketch and you should be fine! Speaking of, any time you change a value, you will need to reupload the sketch to your arduino. Since the serial connection (and the Nano has only one) is used by the DMX-Input, you can't simply upload, as the same interface is used for USB-communication. This is where that switch in `R0 -> D0/RX` comes into play. Flipping it off shuts off the DMX-connection, allowing you to upload your sketch. Just remember to flip it back on afterwards, else you can't get a DMX-signal, no matter how hard you try.
 
 
 #### Timings
 On top of the sketch, you can adjust a few timings: How long the signal (to the fog machine) is on and the minimum and maximum time the signal is switched off, essentially allowing you to adjust the range available.
-In terms of timing (how long the signal is on), lower = better. Turn this number down and test if your fog machine still responds every time you hear the relais. Keep going until it doesn't anymore and then back off slightly, to get a reliable setting. If your fog machine doesn't respond every time on default settings, increase the number until it responds every time and then add a few ms to be safe.
-The range adjustment should need no explanation. `min` ins the offtime for minimal output and `max` the offtime for maximal output of fog.
+In terms of timing (how long the signal is on), lower = better. Turn this number down and test if your fog machine still responds every time you hear the relais. Keep going until it doesn't anymore and then back off slightly, to get a reliable setting. **NOTE:** With a mechanical relay, there is a limit to how fast you can go. For my relay, it was ~7ms. 
+If your fog machine doesn't respond every time on default settings, increase the number until it responds every time and then add a few ms to be safe.
+The range adjustment should need no explanation. `min` is the offtime for minimal output and `max` the offtime for maximal output of fog.
 
 
 #### DMX-related settings
