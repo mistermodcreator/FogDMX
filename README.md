@@ -5,7 +5,12 @@ Well, hello. Since you are here, you are probably looking for a cheap and easy w
 
 
 ## What can this do?
-This project is essentially two things: An DMX interface to controll a fog machine via DMX, OR a manual remote with an variable output.
+This project is essentially two things: An DMX interface to controll a fog machine via DMX, OR a manual remote with an variable output. 
+
+
+## Tested hardware & Disclaimer
+The project is tested on an `ADJ VF 1300`, but as long as your fog machine is triggered using low voltage signals to a control board inside the machine, everything should be fine. If it doesn't and the wires in the remote are as thick as normal power cables, STOP IMMEDIATELY! This probably means that your fogger uses hight voltage to trigger, which means that you will take a lot more risk when doing this.
+I am not responsible for any damage that might happen when you do this. Just think yourself and stop if you are not comftable with what you are doing at any point.
 
 
 
