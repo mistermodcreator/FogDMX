@@ -109,7 +109,7 @@ Whereever the software writes to the relay, `digitalWrite(out,X)` is used. X is 
 - DMX-signal detection doesn't work right. When a DMX-signal is present, all is fine. When it is lost, the controller switches between having a DMX-signal and not having one periodically, even when nothing is connected to the DMX-ports.
 - Program essentially stops when waiting, which can delay responses by up to 1s (default values). Async waits would be a solution, however I can't program that.
 
-## Features I'm to dumb to program - pls send help
+## Features I'm too dumb to program - pls send help
 - Support for a pixel-based display. I've looked into it, but couldn't find a library that would allow me to print simple text as that's all thats needed (right now)
 - Timer function
 - Support for a PWM-out to control a fan through a second DMX-channel. The fan should turn off when no fog is triggered and turn on at the set value when the DMX-command for fog is recieved, however before the actual fog is triggered (to allow it to spin up, the delay should be configurable).
