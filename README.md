@@ -64,7 +64,7 @@ You can use dupont-connectors, however for reliability-reasons i wouldn't reccom
 - Switch:				Connect between Pin 7 and GND
 - Pot:					Connect between A0 and GND, ensuring the far left position gives the least resistance
 - DMX-Out: 			Can just be connected to the corresponding pins on DMX-In
-- MIDI-In:			Bit complicated. Grap a multimeter and figure out, where ground, +5V and the trigger pin are, when connected to your fog machine. The connect GND to GND, +5V to +5V and the trigger through the normally open contacts of the relay to GND. If you do this the wrong way around, don't panic as this is fixable in software (will just take a few minutes)
+- MIDI-In:			Bit complicated. Grap a multimeter and figure out, where ground, +5V and the trigger pin are, when connected to your fog machine. Then connect GND to GND, +5V to +5V and the trigger through the normally open contacts of the relay to GND. If you do this the wrong way around (through normally closed), don't panic as this is fixable in software (will just take a few minutes)
 
 
 ### Now, TEST!
