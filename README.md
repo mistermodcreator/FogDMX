@@ -20,32 +20,21 @@ Included are the code, a list of materials and 3D-Models for an enclosure fittin
 
 
 
-## Materials:
-- Arduino Uno or semilar (I used a Nano)
+## Materials (non-affiliate links):
+- [Arduino Uno or semilar (I used a Nano)](https://www.amazon.de/dp/B0097AU5OU?psc=1)
 - The Arduino-IDE on your computer
-- A MAX-485-board
-- A Relay
-- A TM1637 based 4 digit 7-segment-display
-- Two switches and one push button
+- [A MAX-485-board](https://www.amazon.de/dp/B0785B3BS8?psc=1)
+- [A Relay](https://www.amazon.de/dp/B07FNGCSZQ)
+- [A TM1637 based 4 digit 7-segment-display](https://www.amazon.de/dp/B078S8SGW2)
+- [Two switches and one push button](https://www.amazon.de/dp/B099YM8WC3)
 - 1 potentiometer
-- 1 Female and one Male XLR socket
-- 1 Female MIDI-socket (Connection to fog machine, if your machine uses another type of connector or a hard wired remote, pick up a matching socket or route the wires directly in the enclosure)
+- [1 Female](https://www.thomann.de/de/amphenol_ac3fdz.htm) and [1 Male](https://www.thomann.de/de/amphenol_ac3mmdz.htm) XLR socket
+- [1 Female MIDI-socket](https://www.thomann.de/de/rean_nys_325.htm) (Connection to fog machine, if your machine uses another type of connector or a hard wired remote, pick up a matching socket or route the wires directly in the enclosure)
 - 3D printer (If you don't have one, you can use a lunch box or semilar) [3D model](https://www.tinkercad.com/things/fHhk7ptpsdN-fogdmx-case)
 - Some wires
 - Heatshrink
 - Hot Glue
 - 5V power supply (if your fog machine doesn't output 5V on its own, machines with wireless remotes often do that)
-
-
-#### Materials used by me (which should work and are non-affiliate links)
-- https://www.amazon.de/dp/B0097AU5OU?psc=1
-- https://www.amazon.de/dp/B0785B3BS8?psc=1
-- https://www.amazon.de/dp/B07FNGCSZQ
-- https://www.amazon.de/dp/B078S8SGW2
-- https://www.amazon.de/dp/B099YM8WC3
-- https://www.thomann.de/de/amphenol_ac3fdz.htm
-- https://www.thomann.de/de/amphenol_ac3mmdz.htm
-- https://www.thomann.de/de/rean_nys_325.htm
 
 
 
