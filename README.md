@@ -45,7 +45,7 @@ Included are the code, a list of materials and 3D-Models for an enclosure fittin
 
 
 ### The time has come to connect up your components.
-You can use dupont-connectors, however for reliability-reasons i wouldn't reccoment them in the final assembly. Soldering is not that hard and it WILL be a nightmare to diagnose one loose connection (naturally right when the machine needs to work)
+You can use dupont-connectors, however for reliability-reasons I wouldn't reccoment them in the final assembly. Soldering is not that hard and it WILL be a nightmare to diagnose one loose connection (naturally right when the machine needs to work)
 
 - I would reccomend starting with the signal wires, as positive and ground connections need to be grouped together later.
 - First solder your wires to the individual componets and make connections to the arduino last, ideally after figuring out the placement of all components in your case.
@@ -77,7 +77,7 @@ Your controller displays the current pot value in the display (range same as DMX
 
 
 # Tuning
-Since the sketch allows for customization, i will mention the tuning that might be done. Nothing here can break your stuff, however it can absolutely result in the remote not functioning. Just reupload the original sketch and you should be fine! Speaking of, any time you change a value, you will need to reupload the sketch to your arduino. Since the serial connection (and the Nano has only one) is used by the DMX-Input, you can't simply upload, as the same interface is used for USB-communication. This is where that switch in `R0 -> D0/RX` comes into play. Flipping it off shuts off the DMX-connection, allowing you to upload your sketch. Just remember to flip it back on afterwards, else you can't get a DMX-signal, no matter how hard you try.
+Since the sketch allows for customization, I will mention the tuning that might be done. Nothing here can break your stuff, however it can absolutely result in the remote not functioning. Just reupload the original sketch and you should be fine! Speaking of, any time you change a value, you will need to reupload the sketch to your arduino. Since the serial connection (and the Nano has only one) is used by the DMX-Input, you can't simply upload, as the same interface is used for USB-communication. This is where that switch in `R0 -> D0/RX` comes into play. Flipping it off shuts off the DMX-connection, allowing you to upload your sketch. Just remember to flip it back on afterwards, else you can't get a DMX-signal, no matter how hard you try.
 
 
 #### Timings
@@ -107,8 +107,9 @@ Whereever the software writes to the relay, `digitalWrite(out,X)` is used. X is 
 
 ## Known bugs - Fixes much appreciated :-)
 - DMX-signal detection doesn't work right. When a DMX-signal is present, all is fine. When it is lost, the controller switches between having a DMX-signal and not having one periodically, even when nothing is connected to the DMX-ports.
+- Program essentially stops when waiting, which can delay responses by up to 1s (default values). Async waits would be a solution, however I can't program that.
 
-## Features i'm to dumb to program - pls send help
+## Features I'm to dumb to program - pls send help
 - Support for a pixel-based display. I've looked into it, but couldn't find a library that would allow me to print simple text as that's all thats needed (right now)
 - Timer function
-- Support for a PWM-out to controll a fan through a second DMX-channel. The fan should turn off when no fog is triggered and turn on at the set value before the actual fog is triggered.
+- Support for a PWM-out to control a fan through a second DMX-channel. The fan should turn off when no fog is triggered and turn on at the set value when the DMX-command for fog is recieved, however before the actual fog is triggered (to allow it to spin up, the delay should be configurable).
