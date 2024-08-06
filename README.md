@@ -103,3 +103,12 @@ In lines `110 to 112` and `125 to 127` you can see how the pot input (which can 
 
 #### Inverting relay
 Whereever the software writes to the relay, `digitalWrite(out,X)` is used. X is the value written. Just swap 1's with 0's and the other way around.
+
+
+## Known bugs - Fixes much appreciated :-)
+- DMX-signal detection doesn't work right. When a DMX-signal is present, all is fine. When it is lost, the controller switches between having a DMX-signal and not having one periodically, even when nothing is connected to the DMX-ports.
+
+## Features i'm to dumb to program - pls send help
+- Support for a pixel-based display. I've looked into it, but couldn't find a library that would allow me to print simple text as that's all thats needed (right now)
+- Timer function
+- Support for a PWM-out to controll a fan through a second DMX-channel. The fan should turn off when no fog is triggered and turn on at the set value before the actual fog is triggered.
