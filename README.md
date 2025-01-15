@@ -3,9 +3,13 @@ First, I'm not a programmer. My code will be janky and unoptimised, but it shoul
 
 Well, hello. Since you are here, you are probably looking for a cheap and easy way to upgrade your generic fog machine to use DMX and to have an variable output. So was I. As I found out, there is no affordable product out there to do that. So I decided to try programming Arduino and a few weeks later, the project was finished.
 
+## Version 2.0 coming soon
+Notable features include support for a pwm-controlled fan (it will always use two dmx-channels) and the `nd` when no DMX-signal is detected will flash now.
+
 
 ## What can this do?
 This project is essentially two things: An DMX interface to controll a fog machine via DMX, OR a manual remote with an variable output. 
+A fixture profile for Daslight is available (Manufacturer: `_Generic`  profile name: `FogDMX 2.0`)
 
 
 ## Tested hardware & Disclaimer
